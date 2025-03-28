@@ -28,14 +28,14 @@ When there are multiple deployments triggered by one pipeline, tools like GitLab
 Below are the 2023 DORA benchmarks for different development teams from Google's report. However, it's difficult to tell which group a team falls into when the team's deployment frequency is `between once per week and once per month`. Therefore, DevLake provides its own benchmarks to address this problem:
 
 
-| Groups            | Benchmarks                                     | DevLake Benchmarks                             | The Criteria of DevLake Benchmarks                |
-| ----------------- | ---------------------------------------------- | ---------------------------------------------- | --------------------------------------------------|
-| Elite performers  | On-demand (multiple deploys per day)           | On-demand                                      | Median Number of `Deployment Days` per Week >= 5  |
-| High performers   | Between once per day and once per week         | Between once per day and once per week         | Median Number of `Deployment Days` per Week >= 1  |
-| Medium performers | Between once per week and once per month       | Between once per week and once per month       | Median Number of `Deployment Days` per Month >= 1 |
-| Low performers    | Between once per week and once per month       | Fewer than once per month                      | Median Number of `Deployment Days` per Month < 1  |
+| Groups            | Benchmarks                                       | DevLake Benchmarks                       | The Criteria of DevLake Benchmarks                |
+|-------------------|--------------------------------------------------|------------------------------------------|---------------------------------------------------|
+| Elite performers  | On-demand (multiple deploys per day)             | On-demand                                | Median Number of `Deployment Days` per Week >= 5  |
+| High performers   | Between once per day and once per week           | Between once per day and once per week   | Median Number of `Deployment Days` per Week >= 1  |
+| Medium performers | Between once per week and once per month         | Between once per week and once per month | Median Number of `Deployment Days` per Month >= 1 |
+| Low performers    | Between once per month and once every six months | Fewer than once per month                | Median Number of `Deployment Days` per Month < 1  |
 
-<p><i>Source: 2023 Accelerate State of DevOps, Google</i></p>
+<p><i>Source: 2024 Accelerate State of DevOps, Google</i></p>
 
 
 <details>
